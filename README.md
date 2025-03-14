@@ -7,7 +7,7 @@ This repository integrates **Pedestrian-Synthesis-GAN (PS-GAN)** with **AlphaPos
 
 ### **Repository Structure**  
 ```
-📂 Pedestrian-Pose-Estimation  
+📂 Pedestrian-Synthesis-GAN: Generating Pedestrian Data in Real Scene and Beyond  
  ├── 📂 PS-GAN/               # GAN for generating synthetic pedestrian data  
  │   ├── models/              # Generator and Discriminator architectures  
  │   ├── datasets/            # Training datasets and preprocessing scripts  
@@ -30,18 +30,11 @@ This repository integrates **Pedestrian-Synthesis-GAN (PS-GAN)** with **AlphaPos
  │   ├── requirements.txt     # Dependencies for AlphaPose  
  │   └── ...  
  │  
- ├── 📂 results/              # Results from model inference  
- │   ├── images/              # Visual comparison of AlphaPose vs. Proposed Model  
- │   ├── videos/              # Sample output videos  
- │   ├── table1_results.csv   # Quantitative comparison (mAP scores)  
- │   └── ...  
- │  
- ├── main.py                  # Script to run the full pipeline (PS-GAN → AlphaPose)  
- ├── requirements.txt         # Combined dependencies  
- ├── LICENSE                  # License information  
- ├── CONTRIBUTING.md          # Guidelines for contributing  
- ├── README.md                # This file  
- └── .gitignore               # Ignore unnecessary files  
+ ├── 📂 results/              
+ │   ├── Dance output/               
+ │   ├── Local Pedestrians/              
+ │   ├── Pedestrian output/ 
+ │   └── Running Race output/
 ```
 
 ---
@@ -49,7 +42,7 @@ This repository integrates **Pedestrian-Synthesis-GAN (PS-GAN)** with **AlphaPos
 ### **Installation & Setup**  
 #### **1. Clone the Repository**  
 ```bash
-git clone https://github.com/yourusername/Pedestrian-Pose-Estimation.git
+git clone https://github.com/Sam-Nathan/Pedestrian-Pose-Estimation-and-Tracking-in-Occlusion-Prone-Environments.git
 cd Pedestrian-Pose-Estimation
 ```
 
