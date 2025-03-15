@@ -31,8 +31,7 @@ This repository integrates **Pedestrian-Synthesis-GAN (PS-GAN)** with **AlphaPos
  │   └── ...  
  │  
  ├── 📂 results/              
- │   ├── Dance output/               
- │   ├── Local Pedestrians/              
+ │   ├── Dance output/                             
  │   ├── Pedestrian output/ 
 ```
 
